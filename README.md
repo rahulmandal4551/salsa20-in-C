@@ -6,7 +6,7 @@ In this project we implemented the [Salsa20 Stream Cipher](https://www.ecrypt.eu
 ## Execution:
 1. To complile the C program: `gcc salsa20.c -lpthread -o salsa20`
 2. To run the C program: `./salsa20 <input_file_name> <output_file_name>`
-   If no input/ output file name is specified, `salsa_input.txt` and `salsa_output.txt` will be taken by default.
+If no input/ output file name is specified, `salsa_input.txt` and `salsa_output.txt` will be taken by default.
 3. The result of the algorithm is stored in the output file specified in step 2.
 4. You can use that result text to encrypt/ decrypt it again following the step 1 and 2.
 5. To decrypt the encrypted text use encrypted values in ASCII format as input and follow step 4 to get original plaintext.
